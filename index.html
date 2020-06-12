@@ -28,33 +28,29 @@
     ></script>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="logo">View Highscores</div>
-          <div class="col-md-4">
-            <div class="score">Time:<span id="timer"> </span></div>
-          </div>
-        </div>
+    <div class="row">
+      <div class="col">
+        <header>
+          <p id="highscores">View Highscores</p>
+          <p id="timer">Time: <span id="timer"></span></p>
+        </header>
       </div>
-    </header>
+    </div>
 
-    <div id="start-page">
-      <div class="container" id="quizMain">
-        <div class="row justify-content-md-center">
-          <h1>Coding Quiz Challenge</h1>
-          <h3>
-            Try to answer the following code-related questions within the time
-            limit. Keep in mind that incorrect answers will penalize your
-            score/time by 10 seconds.
-          </h3>
-          <button type="button" class="btn btn-primary" id="startGame">Start Quiz</button>
-        </div>
+    <main class="container" id="quizMain">
+      <div class="row justify-content-md-center">
+        <h1>Coding Quiz Challenge</h1>
+        <h3 id="opening-text">
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by 10 seconds.
+        </h3>
+        <button type="button" class="btn btn-primary" id="startGame">
+          Start Quiz
+        </button>
       </div>
-    </div>
-    <div id="secondDiv">
-        THIS SUCKS !!!!!
-    </div>
+    </main>
+
     <script src="./script.js"></script>
   </body>
 </html>

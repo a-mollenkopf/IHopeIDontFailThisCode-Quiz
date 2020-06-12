@@ -1,3 +1,19 @@
-#secondDiv {
+#arrayOfQuizPages {
     display: none;
 }
+
+#timer {
+    float: right;
+    padding-right: 10px;
+}
+
+#highscores{
+    float: left;
+    padding-left: 10px;
+} 
+#opening-text {
+    text-align: center;
+}
+.container {
+    padding-top: 10px;
+  
