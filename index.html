@@ -32,13 +32,13 @@
       <div class="col">
         <header>
           <p id="highscores">View Highscores</p>
-          <p id="timer">Time: <span id="timer"></span></p>
+          <p id="time-label">Time: <span id="timer"></span></p>
         </header>
       </div>
     </div>
 
     <main class="container" id="quizMain">
-      <div class="row justify-content-md-center">
+      <div class="row justify-content-md-center" id="startPage">
         <h1>Coding Quiz Challenge</h1>
         <h3 id="opening-text">
           Try to answer the following code-related questions within the time
@@ -48,6 +48,111 @@
         <button type="button" class="btn btn-primary" id="startGame">
           Start Quiz
         </button>
+      </div>
+      <div id="firstQuestion">
+        <div class="row justify-content-md-left">
+          <h2>Commonly used data types DO NOT include:</h2>
+          <button type="button" class="btn btn-primary" id="q1-strings">
+            1. Strings
+          </button>
+          <button type="button" class="btn btn-primary" id="q1-booleans">
+            2. Booleans
+          </button>
+          <button type="button" class="btn btn-primary" id="q1-alerts">
+            3. Alerts
+          </button>
+          <button type="button" class="btn btn-primary" id="q1-numbers">
+            4. Numbers
+          </button>
+        </div>
+      </div>
+
+      <div id="secondQuestion">
+        <div class="row justify-content-md-left">
+          <h2>
+            The condition in an if/else statement is enclosed within______.
+          </h2>
+          <button type="button" class="btn btn-primary" id="q2-quotes">
+            1. Quotes
+          </button>
+          <button type="button" class="btn btn-primary" id="q2-curlyBrackets">
+            2. Curly Brackets
+          </button>
+          <button type="button" class="btn btn-primary" id="q2-parenthesis">
+            3. Parenthesis
+          </button>
+          <button type="button" class="btn btn-primary" id="q2-squareBrackets">
+            4. Square Brackets
+          </button>
+        </div>
+      </div>
+      <div id="thirdQuestion">
+        <div class="row justify-content-md-left">
+          <h2>Arrays in javascript can be used to store ________.</h2>
+          <button
+            type="button"
+            class="btn btn-primary"
+            id="q3-numbersAndStrings"
+          >
+            1. Numbers and Strings
+          </button>
+          <button type="button" class="btn btn-primary" id="q3-otherArrays">
+            2. Other arrays
+          </button>
+          <button type="button" class="btn btn-primary" id="q3-booleans">
+            3. Booleans
+          </button>
+          <button type="button" class="btn btn-primary" id="q3-allOfTheAbove">
+            4. All of the above
+          </button>
+        </div>
+      </div>
+      <div id="fourthQuestion">
+        <div class="row justify-content-md-left">
+          <h2>
+            String values must be enlcosed within _______ when being assigned to
+            variables.
+          </h2>
+          <button type="button" class="btn btn-primary" id="q4-commas">
+            1. Commas
+          </button>
+          <button type="button" class="btn btn-primary" id="q4-curlyBrackets">
+            2. Curly Brackets
+          </button>
+          <button type="button" class="btn btn-primary" id="q4-quotes">
+            3. Quotes
+          </button>
+          <button type="button" class="btn btn-primary" id="q4-parenthesis">
+            4. Parenthesis
+          </button>
+        </div>
+      </div>
+      <div id="fifthQuestion">
+        <div class="row justify-content-md-left">
+          <h2>
+            A very useful tool during developement and debugging for printing
+            content to the debuger is:
+          </h2>
+          <button type="button" class="btn btn-primary" id="q5-javascript">
+            1. Javascript
+          </button>
+          <button type="button" class="btn btn-primary" id="q5-terminalOrbash">
+            2. Terminal/Bash
+          </button>
+          <button type="button" class="btn btn-primary" id="q5-forLoops">
+            3. For loops
+          </button>
+          <button type="button" class="btn btn-primary" id="q5-consoleLog">
+            4. Console.log
+          </button>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-left" id="correctAnswer">
+        Correct!
+      </div>
+      <div class="row justify-content-md-left" id="incorrectAnswer">
+        Incorrect!
       </div>
     </main>
 
