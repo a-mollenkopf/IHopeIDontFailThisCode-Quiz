@@ -22,6 +22,9 @@ Type git push to push to github and open it from there!
 
 Working on this page tested my knowledge of Javascript and how to make things user responsive. I learned how to manipulate the DOM and create tags as well as buttons that respond when clicked. When you hit start quiz it will pop upp to the first question page. you can choose any of the options but if you get it wrong it takes off 10 seconds from the time and bring you to the next question.At the end it shows you your highscore and you can click go back to start again.
 
+https://a-mollenkopf.github.io/IHopeIDontFailThisCode-Quiz/
+Link to the deployed site!
+I wouldve added pictures but i cant get my computer to take screenshots!
 
 
 
